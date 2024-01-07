@@ -1,8 +1,10 @@
 package tests;
 
+import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.http.ContentType.JSON;
 import static org.hamcrest.Matchers.hasKey;
 import static org.hamcrest.Matchers.is;
 import static io.restassured.RestAssured.get;
@@ -54,6 +56,7 @@ public class HomeWorkTests {
                 .log().uri()
                 .log().method()
                 .log().body()
+                .contentType(JSON)
                 .body(bodyUser)
                 .when()
                 .post("https://reqres.in/api/users")
