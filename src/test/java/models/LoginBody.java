@@ -1,2 +1,8 @@
-package models;public class LoginBoby {
+package models;
+
+import lombok.Data;
+
+@Data
+public class LoginBody {
+    String email, password;
 }

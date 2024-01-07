@@ -1,2 +1,8 @@
-package models;public class LoginResponse {
+package models;
+
+import lombok.Data;
+
+@Data
+public class LoginResponse {
+    String token;
 }

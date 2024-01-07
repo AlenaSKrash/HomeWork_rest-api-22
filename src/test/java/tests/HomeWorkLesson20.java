@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.hasKey;
 import static org.hamcrest.Matchers.is;
 import static io.restassured.RestAssured.get;
 
-public class HomeWorkTests {
+public class HomeWorkLesson20 {
 
     @Test
     void getListTotalCheck(){

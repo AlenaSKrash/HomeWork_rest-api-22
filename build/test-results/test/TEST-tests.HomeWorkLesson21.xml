@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.HomeWorkLesson21" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-07T20:24:45" hostname="UK-C02H90PRQ6LW" time="5.025">
+  <properties/>
+  <testcase name="missingPasswordLoginTest()" classname="tests.HomeWorkLesson21" time="5.025"/>
+  <system-out><![CDATA[Request URI:	https://reqres.in/api/login
+Request method:	POST
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": null
+}
+{
+    "error": "Missing password"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

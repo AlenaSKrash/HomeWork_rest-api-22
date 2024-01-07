@@ -1,3 +1,10 @@
-+Request URI:	https://reqres.in/api/users/2
-Request method:	DELETE
-
+)Request URI:	https://reqres.in/api/login
+Request method:	POST
+Body:
+{
+#    "email": "eve.holt@reqres.in",
+    "password": null
+}
+{
+     "error": "Missing password"
+}
